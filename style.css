@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-image: url('your-https://www.bing.com/images/search?q=tech%20backgrounds&FORM=IQFRBA&id=F147C2E70892A75FBB65E02A0BD9C5BCCA1D51F2image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: rgba(255,255,255,0.5); White with opacity */
+  /* background-blend-mode: multiply;  */
+}
+img{
+    width:40x;
+    height:120px;
+    float: right;
+}
+header {
+  background: rgb(158, 128, 240);
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+h1, h2{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  background-color: rgb(243, 232, 213);
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: rgb(171, 148, 236);
+  color: #fff;
+  position:relative;
+  width: 100%;
+  bottom: 0;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.social-icons .icon {
+  color: #333;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-icons .icon.gmail:hover {
+  color: #D14836;
+}
+
+.social-icons .icon.linkedin:hover {
+  color: #0077b5;
+}
+
+.social-icons .icon.github:hover {
+  color: #333;
+}
